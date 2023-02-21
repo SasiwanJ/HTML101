@@ -11,54 +11,40 @@
   <h2>* denotes mandotary</h2>
   <br>
 
-  <label for="freeform">Full name*:</label>
-  <textarea id="freeform" name="freeform" rows="1" cols="20" placeholder="FirstName LastName">
-</textarea>
-  </br>
-  <label for="freeform">Email address*:</label>
-  <textarea id="freeform" name="freeform" rows="1" cols="20" placeholder="EMAIL_ADDRESS">
-</textarea>
+  <body>
+    <label for="fullname">Full name*:</label><br>
+    <input type="text" id="fullname" name="fullname" placeholder="FirstName LastName" /></br>
+    <label for="email">Email address*:</label><br>
+    <input type="text" id="email" name="email" placeholder="EMAIL_ADDRESS" /></br>
 
-
-  <form action="/action_page.php">
-    <label for="cars">Select Tour Package*:</label>
+    <label for="cars">Select Tour Package*:</label><br>
     <select name="cars" id="cars">
-
       <option value="1day">1day</option>
       <option value="2days">2days</option>
       <option value="3days">3days</option>
     </select>
-    <br><br>
-  </form>
-  <br>
-  <label for="freeform">Arrival date*:</label>
-  <textarea id="freeform" name="freeform" rows="1" cols="20" placeholder="m/d/y">
-</textarea>
-  <br></br>
-  <label for="freeform">Number of persons*:</label>
-  <textarea id="freeform" name="freeform" rows="1" cols="20" placeholder="UNKNOWN_TYPE">
-</textarea>
+    <br>
+    <label for="arriveDate">Arrival date*:</label><br>
+    <input type="text" id="arriveDate" name="arriveDate" placeholder="m/d/y"/></br>
+    <label for="noOfPerson">Number of persons*:</label><br>
+    <input type="text" id="noOfPerson" name="noOfPerson" placeholder="UNKNOWN_TYPE"/></br>
 
-  <p>What would you want to avail?*</p>
+    <label for="cars">What would you want to avail?*:</label><br>
 
-  <form action="/action_page.php">
-
-    <input type="radio" id="Boarding" name="fav_language" value="Boarding">
+    <input type="checkbox" id="Boarding" name="fav_language" value="Boarding">
     <label for="html">Boarding</label><br>
-    <input type="radio" id="Fooding" name="fav_language" value="Fooding">
+    <input type="checkbox" id="Fooding" name="fav_language" value="Fooding">
     <label for="css">Fooding</label><br>
-    <input type="radio" id="Sight seeing" name="fav_language" value="Sight seeing">
+    <input type="checkbox" id="Sight seeing" name="fav_language" value="Sight seeing">
     <label for="Sight seeingt">Sight seeing</label>
     <br>
-  </form>
-  <br>
-  <label for="freeform">Discout Coupon code:</label>
-  <textarea id="freeform" name="freeform" rows="1" cols="20" placeholder="UNKNOWN_TYPE">
-</textarea>
-  <p>Terms and conditions*</p>
-  <form action="/action_page.php">
+  
+  <label for="freeform">Discout Coupon code:</label><br>
+  <input type="text" id="noOfPerson" name="noOfPerson" placeholder="UNKNOWN_TYPE"/><br
 
-    <input type="radio" id="I agree" name="fav_language" value="I agree">
+  
+  <label for="cars">Terms and conditions*</label><br>
+  <input type="radio" id="I agree" name="fav_language" value="I agree">
     <label for="html">I agree</label>
     <input type="radio" id="I disagree" name="fav_language" value="I disagree">
     <label for="html">I disagree</label>
